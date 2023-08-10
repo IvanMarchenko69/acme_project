@@ -7,7 +7,7 @@ def calculate_birthday_countdown(birthday):
         next_birthday = get_birthday_for_year(birthday, today.year + 1)
     else:
         next_birthday = this_year_birthday
-        birthday_countdown = (next_birthday - today).days
+    birthday_countdown = (next_birthday - today).days
     return birthday_countdown
 
 def get_birthday_for_year(birthday, year):
